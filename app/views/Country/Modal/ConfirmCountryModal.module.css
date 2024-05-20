@@ -1,0 +1,41 @@
+.Modal_box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền mờ */
+    z-index: 999900;
+}
+
+.Modal {
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+    background-color: var(--main-bg-color);
+    border-radius: 1rem;
+    margin: 2rem auto;
+    position: relative;
+    padding: 0;
+}
+
+.Modal_title {
+    display: flex;
+    justify-content: center;
+}
+
+.Modal_body {
+    align-items: center;
+    padding: 1rem;
+}
+.Modal_footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    bottom: 10px;
+}
+.Modal_footer_button button {
+    box-shadow: var(--box-shadow);
+    margin-right: 2rem;
+}
